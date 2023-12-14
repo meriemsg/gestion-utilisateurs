@@ -1,25 +1,32 @@
-User Management Project
-Introduction
+# User Management Project
+
+## Introduction
+
 Welcome to the User Management Project! This is a demo project created for a technical test, showcasing the use of Python/Django for the backend and React for the frontend.
 
-Features
-Backend:
-Navigate to the backend directory: cd user_management/backend.
-Install dependencies: pip install -r requirements.txt.
-Apply database migrations: python manage.py migrate.
-Create a superuser for admin access: python manage.py createsuperuser.
-Run the Django development server: python manage.py runserver.
-Access the admin interface at http://127.0.0.1:8000/admin to manage users.
-Frontend:
-Navigate to the frontend/user-search directory: cd user_management/frontend/user-search.
-Install dependencies: npm install.
-Start the React development server: npm start.
-Creating Users
+### Frontend
+
+1. Navigate to the frontend/user-search directory: `cd frontend/user-search`.
+2. Install dependencies: `npm install`.
+3. Start the React development server: `npm start`.
+
+### Backend
+
+1. Navigate to the backend directory: `cd backend`.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Apply database migrations: `python manage.py migrate`.
+4. Create a superuser for admin access: `python manage.py createsuperuser`.
+5. Run the Django development server: `python manage.py runserver`.
+6. Access the admin interface at [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to manage users.
+
+## Creating Users
+
 To create users, follow these steps:
 
-Execute python manage.py createsuperuser to create an admin account.
-Run python manage.py runserver to start the Django server.
-Access the admin interface at http://127.0.0.1:8000/admin.
-Log in with the superuser credentials.
-Create and manage users using the admin dashboard.
+1. Execute `python manage.py createsuperuser` to create an admin account.
+2. Run `python manage.py runserver` to start the Django server.
+3. Access the admin interface at [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin).
+4. Log in with the superuser credentials.
+5. Create and manage users using the admin dashboard.
+
 Now you are all set to explore and manage users in this User Management Project!
